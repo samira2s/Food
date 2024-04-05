@@ -2,6 +2,14 @@ header
     padding: 20px 0
     .imgbox
         width: 40px
+    .btn
+        background-color: #d7c9c9
+        color: #211e1e
+        border: 2px solid #aa9797
+        padding: 7px 14px
+        margin-right: 5px
+        display: none
+        border-radius: 5px
     nav
         a
             font-size: 20px
@@ -9,20 +17,19 @@ header
             margin-right: 30px
         .home-color
             color: #74bebc
-    .icon,.bigicon
-        display: none
     @media screen and ( max-width: 992px )
         .menu
-            width: 100%
+            .imgbox
+                width: 58px
+            .minibox
+                .btn
+                    width: 20px
+                    display: block
+                .shop
+                    display: none
             nav
                 a
                     display: none
-            .icon
-                display: block
-                background-color: #e4e0e0
-                margin-left: 33px
-                i
-                    margin: 30px
     @media screen and ( max-width: 768px )
         .icon
             display: block

@@ -20,6 +20,15 @@ header {
 header .imgbox {
   width: 40px;
 }
+header .btn {
+  background-color: #d7c9c9;
+  color: #211e1e;
+  border: 2px solid #aa9797;
+  padding: 7px 14px;
+  margin-right: 5px;
+  display: none;
+  border-radius: 5px;
+}
 header nav a {
   font-size: 20px;
   color: #8c8999;
@@ -28,26 +37,19 @@ header nav a {
 header nav .home-color {
   color: #74bebc;
 }
-header .icon, header .bigicon {
-  display: none;
-}
 @media screen and (max-width: 992px) {
-  header .menu {
-    width: 100%;
+  header .menu .imgbox {
+    width: 58px;
+  }
+  header .menu .minibox .btn {
+    width: 20px;
+    display: block;
+  }
+  header .menu .minibox .shop {
+    display: none;
   }
   header .menu nav a {
     display: none;
-  }
-  header .menu .icon {
-    display: block;
-    background-color: #e4e0e0;
-    margin-left: 33px;
-  }
-  header .menu .icon i {
-    margin: 10px;
-  }
-  header .menu .imgbox {
-    margin-left: 24px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -99,28 +101,28 @@ header .icon, header .bigicon {
   #beautiful .box {
     width: 100%;
     height: 100%;
-    display: block;
-    text-align: text-left;
-    margin-left: 182px;
+    text-align: center;
+    margin-left: 22px;
   }
   #beautiful .box h1 {
-    font-size: 48px;
-    margin: 0 42px;
+    font-size: 66px;
+    margin: 0;
   }
   #beautiful .box h5 {
     font-size: 22px;
-    margin: 74px 14px;
+    margin-left: 35px;
   }
   #beautiful .box .btn {
     padding: 13px 30px;
-    font-size: 20px;
+    font-size: 30px;
     border-radius: 5px;
   }
-  #beautiful .imgbox {
-    position: absolute;
-    left: 34px;
-    bottom: 34px;
-    width: 120px;
+  #beautiful .box .minibox {
+    display: flex;
+    justify-content: center;
+  }
+  #beautiful .box h4 {
+    margin-bottom: 30px;
   }
 }
 
