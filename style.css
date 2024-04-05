@@ -162,6 +162,26 @@ header nav .home-color {
 #thehome .imgbox {
   width: 520px;
 }
+@media screen and (max-width: 992px) {
+  #thehome .textbox {
+    text-align: center;
+  }
+  #thehome .textbox h1 {
+    font-size: 66px;
+    margin-left: 75px;
+  }
+  #thehome .textbox h5 {
+    font-size: 25px;
+  }
+  #thehome .textbox .btn {
+    margin-bottom: 20px;
+    margin-bottom-padding: 19px 38px;
+    margin-bottom-font-size: 26px;
+  }
+  #thehome .imgbox {
+    width: 450px;
+  }
+}
 
 #works h1 {
   font-weight: 700;
