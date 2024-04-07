@@ -165,21 +165,21 @@ header nav .home-color {
 @media screen and (max-width: 992px) {
   #thehome .textbox {
     text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
   #thehome .textbox h1 {
     font-size: 66px;
-    margin-left: 75px;
   }
   #thehome .textbox h5 {
     font-size: 25px;
+    margin-left: 33px;
   }
   #thehome .textbox .btn {
-    margin-bottom: 20px;
-    margin-bottom-padding: 19px 38px;
-    margin-bottom-font-size: 26px;
-  }
-  #thehome .imgbox {
-    width: 450px;
+    margin-bottom: 47px;
+    padding: 19px 38px;
+    font-size: 26px;
   }
 }
 
