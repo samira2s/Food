@@ -349,6 +349,26 @@ header nav .home-color {
   padding: 13px 34px;
   border-radius: 5px;
 }
+@media screen and (max-width: 992px) {
+  #order .imgbox {
+    width: 650px;
+  }
+  #order .textbox {
+    text-align: center;
+  }
+  #order .textbox h1 {
+    margin: 0 55px;
+    font-size: 65px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #order .textbox .btn {
+    padding: 20px 85px;
+  }
+  #order .textbox h5 {
+    margin: 25px 0 55px;
+  }
+}
 
 #callour {
   background-color: #f1f8f9;
