@@ -393,6 +393,22 @@ header nav .home-color {
 #callour .imgbox {
   width: 520px;
 }
+@media screen and (max-width: 992px) {
+  #callour .textbox {
+    text-align: center;
+  }
+  #callour .textbox h1 {
+    margin: 0 45px;
+  }
+  #callour .textbox .btn {
+    margin-bottom: 55px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #callour .btn {
+    padding: 45px 75px;
+  }
+}
 
 #support .textbox h1 {
   font-size: 60px;
