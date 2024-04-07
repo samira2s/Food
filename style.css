@@ -404,11 +404,6 @@ header nav .home-color {
     margin-bottom: 55px;
   }
 }
-@media screen and (max-width: 768px) {
-  #callour .btn {
-    padding: 45px 75px;
-  }
-}
 
 #support .textbox h1 {
   font-size: 60px;
