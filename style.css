@@ -293,6 +293,40 @@ header nav .home-color {
   padding: 17px 53px;
   margin-top: 50px;
 }
+@media screen and (max-width: 992px) {
+  #browse .box {
+    padding: 25px 0;
+  }
+  #browse .box .imgbox {
+    width: 130px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #browse .direction {
+    flex-direction: column;
+  }
+  #browse .btn {
+    margin-top: 15px;
+  }
+  #browse .box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px 0;
+  }
+  #browse .box .textbox {
+    padding: 20px 0;
+  }
+  #browse .box .textbox .minibox {
+    flex-direction: column;
+  }
+  #browse .box .textbox .minibox h5 {
+    margin-top: 22px;
+  }
+  #browse .box .imgbox {
+    width: 400px;
+  }
+}
 
 #order .imgbox {
   width: 600px;
